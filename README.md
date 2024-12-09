@@ -1,0 +1,1 @@
+This repository demonstrates a potential issue in VHDL code when directly using the '*' operator for unsigned multiplication. The original code might not synthesize efficiently or might produce incorrect results for certain synthesis tools. The solution provides a more robust approach using a shift-and-add algorithm.
